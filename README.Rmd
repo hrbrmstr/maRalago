@@ -1,0 +1,43 @@
+---
+output: rmarkdown::github_document
+---
+
+`maRalago` : Is Trump At Mar-a-Lago (and more)
+
+See if Trump is at Mar-a-Lago and also retreive total trips/costs to Mar-a-Lago
+as well as a list of programs with unit costs to assist in derivation of what the
+narcisstic waste of money could to to fund or keep funding.
+
+It relies on a Google spreadsheet maintaind by the Center for American Progress Action
+Fund which was discovered after seeing [https://istrumpatmaralago.org/](https://istrumpatmaralago.org/).
+
+The following functions are implemented:
+
+- `could_pay_for`:	Could have funded
+- `is_there`:	Is Trump at Mar-a-Lago
+- `trips_info`:	Trip Data
+
+### Installation
+
+```{r eval=FALSE}
+devtools::install_github("hrbrmstr/maRalago")
+```
+
+```{r message=FALSE, warning=FALSE, error=FALSE, include=FALSE}
+options(width=120)
+```
+
+### Usage
+
+```{r message=FALSE, warning=FALSE, error=FALSE}
+library(maRalago)
+
+# current verison
+packageVersion("maRalago")
+
+is_there()
+
+trips_info()
+
+could_pay_for()
+```

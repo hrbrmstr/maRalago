@@ -1,0 +1,25 @@
+Package: maRalago
+Type: Package
+Title: Is Trump At Mar-a-Lago (and more)
+Version: 0.1.0
+Date: 2017-04-14
+Author: Bob Rudis (bob@rud.is)
+Maintainer: Bob Rudis <bob@rud.is>
+Description: See if Trump is at Mar-a-Lago and also retreive total trips/costs to Mar-a-Lago
+    as well as a list of programs with unit costs to assist in derivation of what the 
+    narcisstic waste of money could to to fund or keep funding. It relies on a Google 
+    spreadsheet maintaind by the Center for American Progress Action Fund which was 
+    discovered after seeing <https://istrumpatmaralago.org/](https://istrumpatmaralago.org/>.
+URL: https://github.com/hrbrmstr/maRalago
+BugReports: https://github.com/hrbrmstr/maRalago/issues
+License: AGPL
+Suggests:
+    testthat,
+    covr
+Depends:
+    R (>= 3.2.0)
+Imports:
+    httr,
+    jsonlite,
+    tibble
+RoxygenNote: 6.0.1
