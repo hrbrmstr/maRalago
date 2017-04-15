@@ -11,7 +11,5 @@
 #' @name maRalago
 #' @docType package
 #' @author Bob Rudis (bob@@rud.is)
-#' @import httr
-#' @importFrom tibble as_data_frame
-#' @importFrom jsonlite fromJSON
+#' @import readxl httr
 NULL

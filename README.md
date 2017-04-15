@@ -26,7 +26,7 @@ library(maRalago)
 packageVersion("maRalago")
 ```
 
-    ## [1] '0.1.0'
+    ## [1] '0.2.0'
 
 ``` r
 is_there()
@@ -38,30 +38,34 @@ is_there()
 trips_info()
 ```
 
-    ## # A tibble: 7 × 2
-    ##   weekend       cost
-    ##     <chr>      <chr>
-    ## 1       1 $3,600,000
-    ## 2       2 $3,600,000
-    ## 3       3 $3,600,000
-    ## 4       4 $3,600,000
-    ## 5       5 $3,600,000
-    ## 6       6 $3,600,000
-    ## 7       7 $3,600,000
+    ##   weekend    cost
+    ## 1       1 3600000
+    ## 2       2 3600000
+    ## 3       3 3600000
+    ## 4       4 3600000
+    ## 5       5 3600000
+    ## 6       6 3600000
+    ## 7       7 3600000
 
 ``` r
 could_pay_for()
 ```
 
-    ## # A tibble: 8 × 4
     ##                    name                       desc   unitCost
-    ##                   <chr>                      <chr>      <chr>
-    ## 1       Meals on Wheels Meals on Wheels recipients     $2,765
-    ## 2          School Lunch      children fed per year        416
-    ## 3              Medicaid        Medicaid recipients     $5,790
-    ## 4      Homelessness aid               years funded $4,000,000
+    ## 1       Meals on Wheels Meals on Wheels recipients    2765.00
+    ## 2          School Lunch      children fed per year     416.00
+    ## 3              Medicaid        Medicaid recipients    5790.00
+    ## 4      Homelessness aid               years funded 4000000.00
     ## 5  Nutrition assistance               meals funded       1.39
-    ## 6 Public school funding students educated per year     12,296
-    ## 7           Pell Grants       Pell Grants per year       3690
-    ## 8 National Park Service     Trump salary donations    $78,333
-    ## # ... with 1 more variables: citation <chr>
+    ## 6 Public school funding students educated per year   12296.00
+    ## 7           Pell Grants       Pell Grants per year    3690.00
+    ## 8 National Park Service     Trump salary donations   78333.00
+    ##                                                                                                                                                                    citation
+    ## 1                                                              Feeding a senior through Meals on Wheels costs $2,765 a year. President Trump wants to slash their funding. 
+    ## 2                                                      The National School Lunch Program provides food assistance to children in schools for only $416 per child per year. 
+    ## 3                 Helping low-income people access health care through Medicaid costs $5,790 per recipient a year. President Trump continues to threaten Medicaid funding. 
+    ## 4           Trump wants to cut the U.S. Interagency Council on Homelessness which combats homelessness, particularly for veterans, and only costs $4 million a year to run.
+    ## 5                                       The Supplemental Nutrition Assistance Program (SNAP) helps millions of families put food on the table and only costs $1.39 a meal. 
+    ## 6                                                                                                      It costs a public school around $12,296 a year to educate students. 
+    ## 7                                                                             Pell Grants help low-income students pay for college and have been on Trump's chopping block.
+    ## 8 President Trump donated his first quarter's salary to the National Park Service, which is a drop in the bucket compared to the taxpayer money spent on Mar-a-Lago trips.

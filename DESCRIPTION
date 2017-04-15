@@ -1,7 +1,7 @@
 Package: maRalago
 Type: Package
 Title: Is Trump At Mar-a-Lago (and more)
-Version: 0.1.0
+Version: 0.2.0
 Date: 2017-04-14
 Author: Bob Rudis (bob@rud.is)
 Maintainer: Bob Rudis <bob@rud.is>
@@ -20,6 +20,5 @@ Depends:
     R (>= 3.2.0)
 Imports:
     httr,
-    jsonlite,
-    tibble
+    readxl
 RoxygenNote: 6.0.1

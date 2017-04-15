@@ -3,17 +3,9 @@
 #' @export
 is_there <- function() {
 
-  res <- httr::GET(
-    url = "https://sheets.googleapis.com/v4/spreadsheets/1JWfwoJ5uSSxYry0AwGg3oc4FPsprIjWWVKWrFn-KqyE/values:batchGet",
-    query = list(
-      ranges="whereuat",
-      key="AIzaSyB-Gb6hsgnEaZhE6wGoNIBM2BOumgHqFDQ"
-    ), encode = "json"
-  )
+  res <- read_trump_data("whereuat")
 
-  res <- httr::content(res, as="text")
-  res <- jsonlite::fromJSON(res)
+  res$whereuat[1] == "YES"
 
-  any(unlist(res$valueRanges$values) == "YES")
 
 }
