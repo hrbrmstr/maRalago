@@ -2,10 +2,10 @@
 % Please edit documentation in R/trips.r
 \name{trips_info}
 \alias{trips_info}
-\title{Trip Data}
+\title{Retrieve Trip Data (with costs)}
 \usage{
 trips_info()
 }
 \description{
-Trip Data
+Retrieve Trip Data (with costs)
 }

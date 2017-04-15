@@ -1,15 +1,16 @@
 
 `maRalago` : Is Trump At Mar-a-Lago (and more)
 
-See if Trump is at Mar-a-Lago and also retreive total trips/costs to Mar-a-Lago as well as a list of programs with unit costs to assist in derivation of what the narcisstic waste of money could to to fund or keep funding.
+See if Trump is at Mar-a-Lago and also retreive total trips/costs to Mar-a-Lago as well as a list of programs with unit costs to assist in derivation of what the narcisstic waste of money could be used to fund or keep funding.
 
 It relies on a Google spreadsheet maintaind by the Center for American Progress Action Fund which was discovered after seeing <https://istrumpatmaralago.org/>.
 
 The following functions are implemented:
 
--   `could_pay_for`: Could have funded
--   `is_there`: Is Trump at Mar-a-Lago
--   `trips_info`: Trip Data
+-   `could_pay_for`: Retrieve program names, descriptions and unit costs
+-   `download_maralago`: Download the full Excel file
+-   `is_there`: Is Trump at Mar-a-Lago?
+-   `trips_info`: Retrieve Trip Data (with costs)
 
 ### Installation
 

@@ -1,4 +1,4 @@
-#' Trip Data
+#' Retrieve Trip Data (with costs)
 #'
 #' @export
 trips_info <- function() {
